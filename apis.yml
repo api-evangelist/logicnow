@@ -1,8 +1,25 @@
 aid: logicnow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/logicnow.png
 name: LogicNow
-description: 'LogicNow is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'LogicNow (styled LOGICnow) was a global provider of integrated, cloud-based
+  IT service management (ITSM) software for managed service providers (MSPs), best known
+  for its MAX product suite — MAX Remote Management (RMM), MAX Backup & Disaster Recovery,
+  MAX Mail, MAX Risk Intelligence and MAX Service Desk. On June 1, 2016 LOGICnow was
+  acquired by SolarWinds and merged with SolarWinds N-able to form SolarWinds MSP, later
+  spun out as the independent public company N-able. LogicNow no longer operates as an
+  independent entity: its logicnow.com domain no longer serves a website (NXDOMAIN, MX
+  only, handled by n-able.com) and it publishes no independent developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/logicnow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,30 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-defunct: true
+x-acquired-by: solarwinds
+x-acquired-date: '2016-06-01'
+x-successor: n-able
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Consumer
+- IT Management
+- Managed Service Providers
+- Remote Monitoring and Management
+- Backup and Recovery
+- ITSM
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
