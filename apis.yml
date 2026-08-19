@@ -31,7 +31,7 @@ x-defunct: true
 x-acquired-by: solarwinds
 x-acquired-date: '2016-06-01'
 x-successor: n-able
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
